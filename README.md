@@ -1,1 +1,37 @@
 # gerenciamento-de-tarefas
+
+Funcionalidades do projeto:
+Criar, atualizar e excluir tarefas;
+Visualizar lista de tarefas;
+Marcar tarefas como concluídas;
+Filtrar tarefas por data, prioridade e status;
+Autenticação de usuários;
+Armazenar tarefas em um banco de dados.
+Tecnologias utilizadas:
+Java 11;
+Spring Boot 2.5.0;
+JPA/Hibernate para persistência de dados;
+Banco de dados MySQL;
+Spring Security para autenticação de usuários;
+Thymeleaf para a criação de templates HTML;
+Bootstrap para estilização das páginas;
+Git para versionamento de código;
+Jenkins para CI/CD;
+Metodologia ágil Scrum.
+Arquitetura do projeto:
+O projeto seguirá a arquitetura MVC (Model-View-Controller), onde a lógica de negócio ficará no pacote service, as classes que representam as entidades ficarão no pacote model e os controladores que irão lidar com as requisições HTTP ficarão no pacote controller.
+
+A camada de persistência de dados será gerenciada pelo JPA/Hibernate, onde as classes de entidades serão mapeadas para tabelas no banco de dados MySQL.
+
+A autenticação de usuários será gerenciada pelo Spring Security, onde será criada uma tabela no banco de dados para armazenar as informações dos usuários.
+
+O front-end da aplicação será construído usando templates HTML com Thymeleaf e estilizado com Bootstrap.
+
+Metodologia ágil:
+O projeto seguirá a metodologia ágil Scrum, onde serão definidas sprints com entregas parciais a cada duas semanas. As reuniões diárias de acompanhamento do projeto serão realizadas usando o Microsoft Teams ou uma ferramenta similar.
+
+CI/CD:
+O projeto será versionado usando o Git e o código será hospedado em um repositório no GitHub. Será configurado um pipeline de CI/CD usando o Jenkins, onde a cada nova alteração no código, o pipeline será disparado para realizar os testes automatizados, realizar o build da aplicação e implantar em um ambiente de homologação.
+
+Conclusão:
+Este projeto será uma aplicação web simples para gerenciamento de tarefas, mas será útil para entender como utilizar algumas das tecnologias mais utilizadas em aplicações Java, como Spring Boot, JPA e Spring Security. A metodologia ágil Scrum e a implementação de um pipeline de CI/CD também serão fundamentais para um desenvolvimento eficiente e de qualidade.
