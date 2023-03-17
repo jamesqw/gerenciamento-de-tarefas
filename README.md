@@ -1,5 +1,3 @@
-# gerenciamento-de-tarefas
-
 Funcionalidades do projeto:
 Criar, atualizar e excluir tarefas;
 Visualizar lista de tarefas;
